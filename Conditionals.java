@@ -39,12 +39,12 @@ public class Conditionals {
 
 //        Q4 - Write a program to print positive number entered by the user, if user enters a negative
 //        number, it is skipped.
-        System.out.print("Enter a number : ");
+        System.out.print("Enter a Integer: ");
         int number = sc.nextInt();
         if (number<0){
             System.out.println("The number is negative and skipped");
         }else {
-            System.out.println("This is a positive number");
+            System.out.println(number+" is a positive number");
         }
 
 //         Q5 - Create a calculator using switch statement to perform addition, subtraction, multiplication
